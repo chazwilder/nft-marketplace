@@ -5,7 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import images from '../assets';
-import { Button } from '.';
+/* eslint import/no-unresolved:0 */
+import { Button } from '@/components';
 
 const MenuItems = ({ isMobile, active, setActive }) => {
   const generateLink = (i) => {
