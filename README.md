@@ -18,3 +18,6 @@ gantt
     CreateNFT Page Completed  :2023-03-12 , 1d
     Setup Hardhat Completed  :2023-03-12 , 1d
     Setup Solidity Completed  :2023-03-12 , 1d
+    Setup SmartContract Completed  :2023-03-12 , 1d
+    Setup NFTContext & Provider Completed  :2023-03-12 , 1d
+    Setup Connect Wallet Functionality Completed  :2023-03-12 , 1d
