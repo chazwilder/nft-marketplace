@@ -69,7 +69,7 @@ const Footer = () => {
                   width={24}
                   height={24}
                   alt="Social Media Icon"
-                  className={theme === 'light' && 'filter invert'}
+                  className={theme === 'light' ? 'filter invert' : undefined}
                 />
               </div>
 

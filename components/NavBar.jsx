@@ -22,7 +22,7 @@ const MenuItems = ({ isMobile, active, setActive }) => {
     }
   };
   return (
-    <ul className={`list-none flex-row flexCenter ${isMobile && 'flex-col h-full'}`}>
+    <ul className={`list-none flex-row flexCenter ${isMobile === true ? 'flex-col h-full' : undefined}`}>
       {['Explore NFTs', 'Listed NFTs', 'My NFTs'].map((item, i) => (
         <li
           key={i}
@@ -121,7 +121,7 @@ const NavBar = () => {
             width={20}
             height={20}
             alt="close menu"
-            className={theme === 'light' && 'filter invert'}
+            className={theme === 'light' ? 'filter invert' : undefined}
             src={images.cross}
           />
         )
@@ -132,7 +132,7 @@ const NavBar = () => {
               width={25}
               height={25}
               alt="menu"
-              className={theme === 'light' && 'filter invert'}
+              className={theme === 'light' ? 'filter invert' : undefined}
               src={images.menu}
             />
           )}
