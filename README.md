@@ -1,6 +1,7 @@
 # NFT Marketplace - Web3 | Next.js | React.js | Solidity
 
 
+
 ```mermaid
 gantt
     title NFT Marketplace Project Progress
@@ -16,4 +17,5 @@ gantt
     Top Sellers & Top NFTs Completed  :2023-03-11 , 1d
     CreateNFT Page Completed  :2023-03-12 , 1d
     Setup Hardhat Completed  :2023-03-12 , 1d
+    Setup Solidity Completed  :2023-03-12 , 1d
 ```
