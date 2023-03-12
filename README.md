@@ -1,6 +1,7 @@
 # NFT Marketplace - Web3 | Next.js | React.js | Solidity
 
 
+
 ```mermaid
 gantt
     title NFT Marketplace Project Progress
