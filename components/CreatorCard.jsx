@@ -13,9 +13,9 @@ const CreatorCard = ({ rank, creatorImage, creatorName, creatorsEths }) => {
         </div>
         <div className="my-2 flex justify-center">
           <div className="relative w-20 h-20 minlg:w-28 minlg:h-28">
-            <Image src={creatorImage} fill style={{ objectFit: 'cover' }} alt="creator" className="rounded-full" />
+            <Image src={creatorImage} fill style={{ objectFit: 'cover' }} alt="creator" className="rounded-full" sizes="" />
             <div className="absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-2 right-0">
-              <Image src={images.tick} fill style={{ objectFit: 'contain' }} alt="tick" />
+              <Image src={images.tick} fill style={{ objectFit: 'contain' }} alt="tick" sizes="" />
             </div>
           </div>
         </div>
