@@ -7,6 +7,7 @@ import Link from 'next/link';
 import images from '../assets';
 /* eslint import/no-unresolved:0 */
 import { Button } from '@/components';
+import { NFTContext } from '@/context/NFTContext';
 
 const MenuItems = ({ isMobile, active, setActive }) => {
   const generateLink = (i) => {
@@ -42,8 +43,9 @@ const MenuItems = ({ isMobile, active, setActive }) => {
 };
 
 const ButtonGroup = ({ setActive, router }) => {
-  const hasConnected = true;
-  return hasConnected ? (
+  const { connectWallet, currentAccount } = useContext(NFTContext);
+
+  return currentAccount ? (
     <Button
       btnName="Create"
       classStyles="mx-2 rounded-xl"
@@ -56,10 +58,7 @@ const ButtonGroup = ({ setActive, router }) => {
     <Button
       btnName="Connect"
       classStyles="mx-2 rounded-xl"
-      handleClick={() => {
-        setActive('');
-        router.push('/create-nft');
-      }}
+      handleClick={connectWallet}
     />
   );
 };
