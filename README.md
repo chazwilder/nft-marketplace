@@ -18,4 +18,3 @@ gantt
     CreateNFT Page Completed  :2023-03-12 , 1d
     Setup Hardhat Completed  :2023-03-12 , 1d
     Setup Solidity Completed  :2023-03-12 , 1d
-```
