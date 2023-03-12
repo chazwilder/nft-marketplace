@@ -77,10 +77,10 @@ const Home = () => {
             {!hideButtons && (
               <>
                 <div className="absolute w-8 h-8 minlg:w-12 minlg:h-12 top-45 cursor-pointer left-0" onClick={() => handleScroll('left')}>
-                  <Image src={images.left} fill style={{ objectFit: 'contain' }} alt="left-arrow" className={theme === 'light' && 'filter invert'} />
+                  <Image src={images.left} fill style={{ objectFit: 'contain' }} alt="left-arrow" className={theme === 'light' ? 'filter invert' : undefined} />
                 </div>
                 <div className="absolute w-8 h-8 minlg:w-12 minlg:h-12 top-45 cursor-pointer right-0" onClick={() => handleScroll('right')}>
-                  <Image src={images.right} fill style={{ objectFit: 'contain' }} alt="right-arrow" className={theme === 'light' && 'filter invert'} />
+                  <Image src={images.right} fill style={{ objectFit: 'contain' }} alt="right-arrow" className={theme === 'light' ? 'filter invert' : undefined} />
                 </div>
               </>
             )}
