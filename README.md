@@ -1,10 +1,18 @@
-# NFT Marketplace - Web3 | Next.js
+# NFT Marketplace - Web3 | Next.js | React.js | Solidity
 
 
-```sequence
-Title: NFT Marketplace Project
-Note left of Project Initialization & Setup: Note to the\n left of A
-Note right of A: Note to the\n right of A
-Note over A: Note over A
-Note over A,B: Note over both A and B
+```mermaid
+gantt
+    title NFT Marketplace Project
+    dateFormat  YYYY-MM-DD
+    Start : milestone, m1, 2023-02-22,2023-02-22
+    section Project Initialization & Setup
+    ES Lint Setup   :2023-02-23, 1d
+    Tailwind Setup  :2023-02-23 , 1d
+    Next.js Setup  :2023-02-23 , 1d
+    section Project Skeleton
+    Navigation Bar Completed  :2023-02-23 , 1d
+    Banner Completed  :2023-02-25 , 1d
+    Top Sellers & Top NFTs Completed  :2023-03-11 , 1d
+    CreateNFT Page Completed  :2023-03-12 , 1d
 ```
